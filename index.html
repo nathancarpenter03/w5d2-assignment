@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Etsy</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,fetch,Array.prototype.includes"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/global.css" />
+</head>
+<body>
+
+<div class = "container-fluid">
+
+<!--Navbar-->
+<div class="row">
+  <div class="nav-col col-md-1"><img src="images/etsy-logo.jpg" alt="Etsy logo" id="logo"> </div>
+  <div class="nav-col col-md-4">
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="board games">
+        </div>
+        <button type="submit" class="btn btn-info">Search</button>
+      </form>
+  </div>
+  <div class="nav-col col-md-1 col-md-offset-3">Sell on Etsy</div>
+  <div class="nav-col col-md-1">Register</div>
+  <div class="nav-col col-md-1 sign-in">Sign In</div>
+  <div class="nav-col col-md-1"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></div>
+</div>
+<hr/>
+
+    <ul class="flex-list">
+        <li>Clothing & Accesories</li>
+        <li>Jewelry</li>
+        <li>Crafts, Supplies & Tools</li>
+        <li>Weddings</li>
+        <li>Entertainment</li>
+        <li>Home & Living</li>
+        <li>Kids & Baby</li>
+        <li>Vintage</li>
+    </ul>
+<hr/>
+
+<div class="container-fluid canvas">
+    
+    <div class="row main-row">
+        <div class="main-col col-md-2">
+            <div class="left-panel">
+                <span>All categories</span>
+                <ul>
+                    <li><a>Toys & Games</a></li>
+                    <li><a>Art & Collectibles</a></li>
+                    <li><a>Crafts & Supplies & Tools</a></li>
+                    <li><a>Home & Living</a></li>
+                    <li><a>Paper & Party Supplies</a></li>
+                    <li><a>Books, Movies & Music</a></li>
+                    <li><a>Acceosires</a></li>
+                    <li><a>Clothing</a></li>
+                    <li><a>Electornics & Accesories</a></li>
+                    <li><a>Jewelry</a></li>
+                    <li><a>Weddings</a></li>
+                    <li><a>Bags & Purses</a></li>
+                </ul>
+            </div>
+            <div class="left-panel">
+                <span>Shop location</span>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Anywhere</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">United States</label>
+                </div>
+                <a id="location" href="#">Choose a custom location</a>
+                <hr/>
+                <span>Item type</span>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">All items</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Handmade</label>
+                </div>
+                <div class="radio">
+                    <label><input type="radio" name="optradio">Vintage</label>
+                </div>
+                </div>
+            </div>
+        <div class="main-col col-md-10">
+           <div class = "container" id = "app">
+                <div class = "card col-md-3">
+                    <img src = "http://unsplash.it/400/300?random"/>
+                    <h5 class = "card-caption">A picture of something</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> 
+<!--end container div-->
+
+<script src="js/global.js"></script>
+</body>
+</html>
