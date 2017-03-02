@@ -18,9 +18,11 @@ img {
 }
 
 .flex-list li {
-    margin-right: 30px;
+    margin-right: 30px; 
+}
+
+.flex-list a {
     color: grey;
-    
 }
 
 #logo {
@@ -44,29 +46,26 @@ img {
     margin-right: -5px;
 }
 
-.sign-in {
-    /*border: solid 1px #0192B5;
-    border-radius: 5%;*/
-}
+/*.sign-in {
+    border: solid 1px #0192B5;
+    border-radius: 5%;
+}*/
 
 .glyphicon {
     font-size: 25px;
     color: grey;
 }
 
-.canvas {
+/*.canvas {
     background-color: #FAF9F5;
     height: 800px;
     margin-top: -20px;
-}
+}*/
 
 .main-row {
     padding-top: 30px;
-    margin-top: 0px;
-}
-
-.main-col {
-    height: 800px;
+    margin-top: -20px;
+    background-color: #FAF9F5;
 }
 
 .left-panel {
@@ -89,17 +88,34 @@ img {
 }
 
 .left-panel a {
-    color: #0192B5;
+    color: #444;
     font-size: 13px;
 }
 
 #location {
     font-weight: normal;
 }
-.card {
-    max-width: 300px;
+
+/*.card {
+    max-width: 265px;
     display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    background-color: white;
+    border: 1px solid lightgrey;
+}*/
+
+.card {
+    max-width: 265px;
+    background: #ffffff;
+    border: 1px solid #FAF9F5;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
+
 .card-caption {
-    text-align: center;
+    padding: 10px;
 }

@@ -19,9 +19,9 @@
   <div class="nav-col col-md-4">
       <form class="navbar-form navbar-left">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="board games">
+          <input type="text" class="form-control" id="searchInput" placeholder="Search...">
         </div>
-        <button type="submit" class="btn btn-info">Search</button>
+        <button type="submit" class="btn btn-info" id="searchButton">Search</button>
       </form>
   </div>
   <div class="nav-col col-md-1 col-md-offset-3">Sell on Etsy</div>
@@ -32,14 +32,14 @@
 <hr/>
 
     <ul class="flex-list">
-        <li>Clothing & Accesories</li>
-        <li>Jewelry</li>
-        <li>Crafts, Supplies & Tools</li>
-        <li>Weddings</li>
-        <li>Entertainment</li>
-        <li>Home & Living</li>
-        <li>Kids & Baby</li>
-        <li>Vintage</li>
+        <li><a href="#">Clothing & Accesories</a></li>
+        <li><a href="#">Jewelry</a></li>
+        <li><a href="#">Crafts, Supplies & Tools</a</li>
+        <li><a href="#">Weddings</a</li>
+        <li><a href="#">Entertainment</a></li>
+        <li><a href="#">Home & Living</a></li>
+        <li><a href="#">Kids & Baby</a></li>
+        <li><a href="#">Vintage</a></li>
     </ul>
 <hr/>
 
@@ -87,11 +87,9 @@
                 </div>
             </div>
         <div class="main-col col-md-10">
-           <div class = "container" id = "app">
-                <div class = "card col-md-3">
-                    <img src = "http://unsplash.it/400/300?random"/>
-                    <h5 class = "card-caption">A picture of something</h5>
-                </div>
+            <p class="pb-xs-2">Did you mean the shop <a href="/shop/boardgames?ref=shop_sugg">boardgames</a>?</p>
+            <div class = "container" id = "card">
+                <!--cards display here-->
             </div>
         </div>
     </div>
